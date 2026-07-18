@@ -11,7 +11,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -62,7 +62,6 @@ main {
     width: 100%;
     max-width: 900px;
     margin: auto;
-    padding: 20px;
 }
 
 footer {
@@ -154,4 +153,9 @@ article {
     height: auto;
     border-radius: 6px;
     object-fit: cover;
+}
+
+.cover img:hover {
+    opacity: 0.8;
+    filter: grayscale(30%);
 }
