@@ -1,4 +1,4 @@
-# Nalle-sarjis
+# Nallesarjis
 
 Nalle-sarjakuvien kotisivusto.
 
