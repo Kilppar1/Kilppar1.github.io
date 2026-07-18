@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nalle-sarjakuvien yhteydenotot.">
+    <meta name="description" content="Testaa, ketä nallehahmoa muistutat!">
     
-    <title>Nalle | Yhteydenotot</title>
+    <title>Nalle | Peli</title>
 
     <link rel="icon" type="image/png" href="../kuvat/muut/favicon.png">
     <link rel="stylesheet" href="../style.css">
+    <script src="peli.js" defer></script>
 </head>
 
 <body>
@@ -22,17 +23,20 @@
         <ul>
             <li><a href="../sarjakuvat/">Sarjakuvat</a></li>
             <li><a href="../uutiset/">Uutiset</a></li>
-            <li><a href="../peli/">Peli</a></li>
-            <li><a href="./">Yhteydenotot</a></li>
+            <li><a href="./">Peli</a></li>
+            <li><a href="../yhteydenotot/">Yhteydenotot</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-<section>
-    <h1>Yhteydenotot</h1>
-    <p>nalle [at] nallesarjis.fi</p>
+<section id="peli">
+    <h1>Ketä nallehahmoa muistutat?</h1>
+    <p>Vastaa kysymyksiin ja ota selvää!</p>
 
+    <div id="kysymys"></div>
+    <div id="vastaukset"></div>
+    <div id="tulos"></div>
 </section>
 
 </main>
