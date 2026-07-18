@@ -75,7 +75,7 @@ const kysymykset = [
         kysymys: "Mitä kaiuttimistasi kuuluu kotona?",
         vastaukset: [
             { teksti: "Menevää pop-musiikkia", pisteet: { Nallukka: 1, Vaikku: 1 } },
-            { teksti: "Hiljaisuutta", pisteet: { Napi: 1 } },
+            { teksti: "Klassista musiikkia", pisteet: { Napi: 1 } },
             { teksti: "Raskasta musiikkia", pisteet: { Nalle: 1, Jorma: 1, Piikki: 1 } },
             { teksti: "Merisää", pisteet: { Nipa: 1 } }
         ]
