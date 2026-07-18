@@ -124,11 +124,13 @@ function naytaKysymys() {
 
             i++;
 
-            if (i < kysymykset.length) {
-                naytaKysymys();
-            } else {
-                naytaTulos();
-            }
+            setTimeout(() => {
+                if (i < kysymykset.length) {
+                    naytaKysymys();
+                } else {
+                    naytaTulos();
+                }
+            }, 50);
         };
 
         vastausLaatikko.appendChild(nappi);
