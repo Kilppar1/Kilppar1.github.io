@@ -196,9 +196,11 @@ button {
     background: rgba(227, 200, 130);
 }
 
-button:hover {
-    transform: scale(1.05);
-    background-color: #EDE4C3;
+@media (hover: hover) {
+    button:hover {
+        transform: scale(1.05);
+        background-color: #EDE4C3;
+    }
 }
 
 #tulos {

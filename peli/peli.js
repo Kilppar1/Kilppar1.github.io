@@ -130,7 +130,7 @@ function naytaKysymys() {
                 } else {
                     naytaTulos();
                 }
-            }, 50);
+            }, 100);
         };
 
         vastausLaatikko.appendChild(nappi);
