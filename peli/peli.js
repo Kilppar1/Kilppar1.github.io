@@ -150,31 +150,31 @@ function naytaTulos() {
 
     if (voittaja == "Nalle") {
         teksti = "Viihdyt kotona ja olet hieman herkkusuu.";
-        kuva = "../kuvat/hahmot/nalle.png";
+        kuva = "/kuvat/hahmot/nalle.png";
     }
     else if (voittaja == "Nallukka") {
         teksti = "Olet pirteä ja vauhdikas persoona.";
-        kuva = "../kuvat/hahmot/nallukka.png";
+        kuva = "/kuvat/hahmot/nallukka.png";
     }
     else if (voittaja == "Nipa") {
         teksti = "Olet pohtiva ja arvostat tietoa.";
-        kuva = "../kuvat/hahmot/nipa.png";
+        kuva = "/kuvat/hahmot/nipa.png";
     }
     else if (voittaja == "Piikki") {
         teksti = "Olet hieman piikikäs, mutta kuitenkin ystävällinen.";
-        kuva = "../kuvat/hahmot/piikki.png";
+        kuva = "/kuvat/hahmot/piikki.png";
     }
     else if (voittaja == "Vaikku") {
         teksti = "Et ohita tilaisuutta vaikuttaa asioihin. Sinulla kuluu paljon korvapuikkoja.";
-        kuva = "../kuvat/hahmot/vaikku.png";
+        kuva = "/kuvat/hahmot/vaikku.png";
     }
     else if (voittaja == "Napi") {
         teksti = "Olet rento, huoleton ja siisti tyyppi.";
-        kuva = "../kuvat/hahmot/napi.png";
+        kuva = "/kuvat/hahmot/napi.png";
     }
     else if (voittaja == "Jorma") {
         teksti = "Olet vauhdikas rämäpää, joka pitää menosta ja melskeestä.";
-        kuva = "../kuvat/hahmot/jorma.png";
+        kuva = "/kuvat/hahmot/jorma.png";
     }
 
     tulosLaatikko.innerHTML = `
