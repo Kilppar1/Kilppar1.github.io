@@ -1,76 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Täältä löydät kaikki julkaistut Nalle-sarjakuvat julkaisujärjestyksessä.">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Täältä löydät kaikki julkaistut Nalle-sarjakuvat julkaisujärjestyksessä."
+    />
+
     <title>Nalle | Sarjakuvat</title>
 
-    <link rel="icon" type="image/png" href="/kuvat/muut/favicon.png">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" href="/kuvat/muut/favicon.png" />
+    <link rel="stylesheet" href="/style.css" />
 
     <style>
-        body {
-            visibility: hidden;
-        }
-        body.loaded {
-            visibility: visible;
-        }
+      body {
+        visibility: hidden;
+      }
+      body.loaded {
+        visibility: visible;
+      }
     </style>
 
     <script src="/loader.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <header>
+      <a href="/" class="logo">
+        <img src="/kuvat/muut/logo.svg" alt="Nalle" />
+      </a>
 
-<header>
-    <a href="/" class="logo">
-        <img src="/kuvat/muut/logo.svg" alt="Nalle">
-    </a>
-
-    <nav>
+      <nav>
         <ul>
-            <li><a href="/sarjakuvat/">Sarjakuvat</a></li>
-            <li><a href="/uutiset/">Uutiset</a></li>
-            <li><a href="/peli/">Peli</a></li>
-            <li><a href="/yhteydenotot/">Yhteydenotot</a></li>
+          <li><a href="/sarjakuvat/">Sarjakuvat</a></li>
+          <li><a href="/uutiset/">Uutiset</a></li>
+          <li><a href="/peli/">Peli</a></li>
+          <li><a href="/yhteydenotot/">Yhteydenotot</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main>
-    <section>
+    <main>
+      <section>
         <h1>Sarjakuvat</h1>
 
         <div class="albums">
-            <div>
-                <nav><a href="/sarjakuvat/nalle1/">
-                    <h2>Nalle 1 (2023)</h2>
-                </a></nav>
-                <a href="/sarjakuvat/nalle1/" class="cover">
-                    <img src="/kuvat/sarjakuvat/nalle1/kansi.png" alt="Nalle 1 kansikuva">
-                </a>
-                <p>Alkuperäiset Nallen kommellukset!</p>
-            </div>
+          <div>
+            <nav>
+              <a href="/sarjakuvat/nalle1/">
+                <h2>Nalle 1 (2023)</h2>
+              </a>
+            </nav>
+            <a href="/sarjakuvat/nalle1/" class="cover">
+              <img
+                src="/kuvat/sarjakuvat/nalle1/kansi.png"
+                alt="Nalle 1 kansikuva"
+              />
+            </a>
+            <p>Alkuperäiset Nallen kommellukset!</p>
+          </div>
 
-            <div>
-                <nav><a href="/sarjakuvat/nalle2/">
-                    <h2>Nalle 2 (2024)</h2>
-                </a></nav>
-                <a href="/sarjakuvat/nalle2/" class="cover">
-                    <img src="/kuvat/sarjakuvat/nalle2/kansi.png" alt="Nalle 2 kansikuva">
-                </a>
-                <p>Nallen vastaisku!</p>
-            </div>
+          <div>
+            <nav>
+              <a href="/sarjakuvat/nalle2/">
+                <h2>Nalle 2 (2024)</h2>
+              </a>
+            </nav>
+            <a href="/sarjakuvat/nalle2/" class="cover">
+              <img
+                src="/kuvat/sarjakuvat/nalle2/kansi.png"
+                alt="Nalle 2 kansikuva"
+              />
+            </a>
+            <p>Nallen vastaisku!</p>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
 
-</main>
-
-<footer>
-    <p>&copy; 2026 Elias Ojala</p>
-</footer>
-
-</body>
+    <footer>
+      <p>&copy; 2026 Elias Ojala</p>
+    </footer>
+  </body>
 </html>
